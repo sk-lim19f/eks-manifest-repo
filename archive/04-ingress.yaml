@@ -10,7 +10,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
     alb.ingress.kubernetes.io/healthcheck-path: /
-    alb.ingress.kubernetes.io/subnets: subnet-02ec3a17a1bd1ef0f, subnet-03b50b77dfde89a51
+    alb.ingress.kubernetes.io/subnets: subnet-09575e3e20a44fcf3, subnet-064c6ceaf996c0875a
 spec:
   rules:
     - http:
